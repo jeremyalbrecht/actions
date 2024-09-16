@@ -4,5 +4,4 @@ on: push
 
 jobs:
   test-reusable:
-    uses: ./.github/workflows/use4.yaml
-    
+    uses: ./.github/workflows/ex4.yaml
