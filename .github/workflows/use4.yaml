@@ -5,3 +5,5 @@ on: push
 jobs:
   test-reusable:
     uses: ./.github/workflows/ex4.yaml
+    with:
+      node-version: 12
